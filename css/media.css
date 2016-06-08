@@ -1,0 +1,46 @@
+/**Media Queries**/
+
+@media (max-width: 1024px) {
+
+    .primary-content,
+    .secondary-content{
+        width: 90%;
+
+    }
+
+    .skills {
+        padding: 10% 12%;
+        margin: 50px 0 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .primary-content,
+    .secondary-content{
+        width: 100%;
+        padding: 20px;
+        border: none;
+
+    }
+
+    .main-header {
+        max-height: 380px;
+        padding: 50px 25px 0;
+    }
+
+    .title {
+        font-size: 1.3rem;
+
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+
+}
