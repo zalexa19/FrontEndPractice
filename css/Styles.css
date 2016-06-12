@@ -21,7 +21,10 @@
 body {
     background-color: #9aa5a7; /*cfd3df*/
     color: #363B51;
+
 }
+
+
 
 h1 {
     font-size: 5.625rem;
@@ -35,10 +38,18 @@ h1 {
 
 /*MAIN STYLES*/
 
+/* ----- Layout Containers ------- */
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right:1em;
+}
+
 #top {
     text-align: center;
     color: white;
-    position: center;
 }
 
 .main-header {
@@ -68,7 +79,7 @@ h1 {
 
 .arrow {
     width: 50px;
-    margin-top; 150px;
+    margin-top: 150px;
 
 }
 
@@ -82,8 +93,21 @@ h1 {
 }
 .footer {
     float: bottom;
-
+    color: white;
 }
 
 
-/***BACKGROUND***/
+/***Media Queries***/
+@media (min-width: 769px) {
+    .wrap {
+        min-height: calc (100vh-89px);
+
+    }
+    .wrapper {
+        width: 70%;
+
+
+    }
+
+
+}
